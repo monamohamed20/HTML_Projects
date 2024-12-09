@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML_Projectsg</title>
+    <link rel="stylesheet" href="Assets/Styles/Main.css">
   </head>
   <body>
     <header>
@@ -17,13 +18,48 @@
         </div>
       </nav>
     </header>
+    <hr>
     <main>
       <section>
-        <div>
+        <div id="aboutus">
           <h1>Tanta Academy</h1>
           <p>Tanta Academy For Computer Sience</p>
         </div>
       </section>
+      <hr>
+      <section>
+          <div id="servieces">
+            <h2>Services</h2>
+            <h3>Computer sience</h3>
+            <p>There is many departments in Computer Sience for Tanta Academy</p>
+            <h3>Web Development</h3>
+            <p></p>
+            <h3>Mobile Development</h3>
+            <p></p>
+            <h3>Desktop Development</h3>
+            <p></p>
+          </div>
+        </section>
+        <section>
+          <div id="contactus">
+            <h2>Contact Us</h2>
+            <form>
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" required autofocus placeholder="Enter Your First Name">
+              <br /> 
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" required autofocus placeholder="Enter Your Last Name">
+              <br />
+              <label for="email">E-mail</label> 
+              <input type="email" name="email" id="email" required placeholder="Enter Your Email Address">
+              <br />
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+              <br />
+              <input type="submit" value="send">
+            </form>
+          </div>
+        </section>
+        <footer><p>&copy; جميع الحقوق محفوظة | <a href="index.html">Tanta Academy 👀</a></p></footer>
     </main>
   </body>
 </html>
