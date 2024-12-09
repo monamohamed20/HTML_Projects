@@ -1,0 +1,42 @@
+header{
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+hr{
+  border: 1px solid black;
+}
+nav a{
+  color: rgb(5, 120, 12);
+}
+
+main{
+  padding: 20px;
+}
+
+h1{
+  font-size: 50px;
+  color: rgb(236, 10, 10);
+  text-align: center;
+}
+
+.description{
+  color: rgb(103, 103, 158);
+  font-size: 35px;
+  text-align: center;
+}
+.products{
+  padding: 70px;
+}
+.products .product{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+
+footer{
+  text-align: center;
+}
+footer span{
+  color: rgb(246, 40, 9)
+  
+}
